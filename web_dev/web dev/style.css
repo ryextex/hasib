@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Charm:wght@400;700&family=Cormorant+Garamond:wght@600&family=Edu+TAS+Beginner&family=Italiana&family=Major+Mono+Display&family=Noto+Sans+Display:ital,wght@1,200&family=Roboto:ital,wght@1,300;1,400&display=swap');
+:root{
+    --goldcolor :#f2aa4cff;
+    --blackShade: #2F2F2F;
+    --wheat-color: #dbc9a8;
+    --primetxt:#f0f8ff;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Home page */
+.home-page{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: 1;
+}
+.wrapper{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+
+}
+.wrapped1{
+    overflow-x: hidden;
+    background-color: #282828;
+    width: 100%;
+    height: 62.99rem;  
+
+}
+
+.Nav-bar{
+    transition: 0.6s ease-in-out ;
+    justify-content:space-between;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.logo{
+    padding-left: 10%;
+    padding-top: 17.4px;
+    font-size: 35px;
+    color:#f0f8ff;
+    font-family: 'Charm', cursive;
+}
+.ul_of_Nav{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    padding-right: 10%;
+    padding-top: 25px;
+}
+.Li-of_nav{
+    color:var(--primetxt);
+    text-decoration: none;
+    padding: 15px;
+    border: none;
+    font-family:serif;
+}
+
+.Home-quotes{
+    transition: 0.9s ease-in-out;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font: weight 400px;
+    font-size: 50px;
+    line-height: 43px;
+    font-family: 'Edu TAS Beginner', cursive;
+    position: absolute;
+    left: 120px;
+    top: 350px;
+    text-align: center;
+    z-index: 2;
+}
+.Home-quotes-bottom-line{
+    padding-top: 15px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    font-style:oblique;
+
+}
+.circle-underTxt1{
+    transition: 0.6s ease-in-out;
+position: absolute;
+width: 100px;
+height: 100px;
+left: 100px;
+top: 320px;
+
+background: #8fbdbbab;
+border-radius: 50%;
+z-index: 1;
+}
+.circle-underTxt2{
+    transition: 0.6s ease-in-out;
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 580px;
+top: 390px;
+
+background: #628180;
+border-radius: 50px 0px 20px 0px;
+z-index: 1;
+}
+.home-page-img img{
+    transition: 0.6s ease-in-out;
+    position: absolute;
+    left: 65vw;
+    top: 15em;
+    box-shadow: 30px 50px  rgb(24, 23, 23) ;
+      border-radius: 100px;
+}
+.conth1{
+    color: azure;
+    position: relative;
+    top: 15px;
+    font-family:'Italiana', serif;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact-me-btn-home-page {
+    display: flex;
+        position:absolute;
+        top: 490px;
+        left: 200px;
+}
+.contact-me-btn-home-page .cont{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: #4a7972 4px 3px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+    font-style: italic;
+    background-color: #f0f8ff;
+    color: #2F2F2F;
+
+}
+/* About Me */
+.About-me{
+    background-color: #e7e1cd;
+}
+.Txt-about-page{
+    background: linear-gradient(135deg, #f0f8ff 30%, #4a7972 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    font-size: 50px;
+
+}
